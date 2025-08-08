@@ -1,0 +1,32 @@
+[2025-04-27 10:12:01] INFO: Starting backup process
+[2025-04-27 10:12:03] INFO: Connecting to database server at 10.0.0.5
+[2025-04-27 10:12:05] WARNING: Connection is slow, retrying...
+[2025-04-27 10:12:07] INFO: Connected to database successfully
+[2025-04-27 10:12:09] INFO: Exporting tables: users, orders, products
+[2025-04-27 10:12:12] ERROR: Failed to export 'orders' table
+[2025-04-27 10:12:15] INFO: Retrying export for 'orders' table
+[2025-04-27 10:12:18] INFO: Export successful
+[2025-04-27 10:12:21] INFO: Saving backup to /backups/db_backup_20250427.sql
+[2025-04-27 10:12:24] INFO: Backup saved successfully
+[2025-04-27 10:13:00] INFO: Starting scheduled cleanup task
+[2025-04-27 10:13:02] INFO: Removing temporary files
+[2025-04-27 10:13:04] WARNING: File temp_1234.tmp could not be deleted
+[2025-04-27 10:13:06] INFO: Cleanup completed with warnings
+[2025-04-27 10:14:00] INFO: Health check started
+[2025-04-27 10:14:02] INFO: CPU usage at 45%
+[2025-04-27 10:14:03] INFO: Memory usage at 60%
+[2025-04-27 10:14:05] INFO: Disk space usage at 80%
+[2025-04-27 10:14:07] ERROR: Disk space critically low on /dev/sda1
+[2025-04-27 10:14:10] INFO: Sending alert email to admin@example.com
+[2025-04-27 10:14:15] INFO: Email sent successfully
+[2025-04-27 10:15:00] INFO: End of system maintenance cycle
+[2025-04-27 11:00:00] INFO: Scheduled task: sync logs with central server
+[2025-04-27 11:00:02] ERROR: Unable to reach central server at 10.0.0.10
+[2025-04-27 11:00:04] WARNING: Will retry in 5 minutes
+[2025-04-27 11:05:00] INFO: Retrying connection to central server
+[2025-04-27 11:05:03] INFO: Connection successful
+[2025-04-27 11:05:05] INFO: Logs synchronized successfully
+[2025-04-27 12:00:00] INFO: Performing daily report generation
+[2025-04-27 12:00:02] INFO: Gathering data
+[2025-04-27 12:00:05] INFO: Report generated and saved to /reports/daily_20250427.pdf
+[2025-04-27 12:00:10] INFO: Daily tasks completed

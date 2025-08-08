@@ -1,0 +1,30 @@
+2025-04-27T13:00:01Z {"level":"INFO", "service":"auth", "msg":"User login attempt", "user":"alice"}
+2025-04-27T13:00:03Z {"level":"ERROR", "service":"auth", "msg":"Invalid credentials", "user":"alice"}
+2025-04-27T13:00:05Z {"level":"INFO", "service":"auth", "msg":"User login attempt", "user":"bob"}
+2025-04-27T13:00:06Z {"level":"INFO", "service":"auth", "msg":"User authenticated", "user":"bob"}
+2025-04-27T13:00:10Z {"level":"INFO", "service":"payments", "msg":"Initiating transaction", "amount":250.00}
+2025-04-27T13:00:15Z {"level":"ERROR", "service":"payments", "msg":"Transaction failed", "reason":"Insufficient funds"}
+2025-04-27T13:00:20Z SYSTEM: Performing automatic database backup
+2025-04-27T13:00:22Z SYSTEM: Database backup completed successfully
+2025-04-27T13:01:00Z {"level":"WARNING", "service":"inventory", "msg":"Stock low", "product_id":4321}
+2025-04-27T13:01:30Z ALERT: Temperature threshold exceeded in server room
+2025-04-27T13:01:32Z SYSTEM: Cooling systems activated
+2025-04-27T13:02:00Z {"level":"INFO", "service":"analytics", "msg":"Daily metrics calculated"}
+2025-04-27T13:02:30Z {"level":"INFO", "service":"scheduler", "msg":"Next task scheduled at 14:00"}
+2025-04-27T13:03:00Z {"level":"INFO", "service":"auth", "msg":"User logout", "user":"bob"}
+2025-04-27T13:03:10Z SYSTEM: Audit log rotation initiated
+2025-04-27T13:03:12Z SYSTEM: Audit log rotation completed
+2025-04-27T13:04:00Z {"level":"INFO", "service":"monitor", "msg":"Heartbeat OK"}
+2025-04-27T13:04:30Z {"level":"ERROR", "service":"monitor", "msg":"Heartbeat missed for server-02"}
+2025-04-27T13:05:00Z SYSTEM: Reboot signal sent to server-02
+2025-04-27T13:05:30Z SYSTEM: Server-02 back online
+2025-04-27T13:06:00Z {"level":"INFO", "service":"auth", "msg":"User login attempt", "user":"charlie"}
+2025-04-27T13:06:02Z {"level":"ERROR", "service":"auth", "msg":"Account locked", "user":"charlie"}
+2025-04-27T13:06:30Z SYSTEM: Maintenance window scheduled for midnight
+2025-04-27T13:07:00Z {"level":"WARNING", "service":"payments", "msg":"High transaction volume detected"}
+2025-04-27T13:07:30Z ALERT: Unusual network activity detected
+2025-04-27T13:08:00Z SYSTEM: Security team notified
+2025-04-27T13:08:30Z SYSTEM: Log archival process started
+2025-04-27T13:09:00Z SYSTEM: Log archival completed
+2025-04-27T13:10:00Z {"level":"INFO", "service":"reporting", "msg":"Monthly report generation started"}
+2025-04-27T13:15:00Z {"level":"INFO", "service":"reporting", "msg":"Monthly report generated successfully"}
